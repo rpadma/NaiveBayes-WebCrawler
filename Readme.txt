@@ -1,4 +1,4 @@
-Implemented Naïve Bayes algorithm using Hadoop Framework to train my model and a Java program to evaluate test results based on trained data. Paintings are classified into 5 class (Abstract Art, Fine Art, Pop Art, Street Art, Modern Art) based on the Keywords associated with Painting.
+Implemented NaÃ¯ve Bayes algorithm using Hadoop Framework to train my model and a Java program to evaluate test results based on trained data. Paintings are classified into 5 class (Abstract Art, Fine Art, Pop Art, Street Art, Modern Art) based on the Keywords associated with Painting.
 As part of data collection, I had written a web crawler for the website https://www.saatchiart.com/ using Scrapy python framework to collect 400k Painting data.
 
 Note :
@@ -19,9 +19,9 @@ fourth parameter  -/home/cloudera/Artdup_wordcount
 
 NaiveBayesTest.java -Three parameter are needed to pass as command line arguments
 
-1) parameter - path of file which contain category and summarized data  
-2) parameter - path of file contain keyword count for each catefory 
-3) parameter - path of file containing test data.
+1st  parameter - path of file which contain category and summarized data  
+2nd  parameter - path of file contain keyword count for each category 
+3rd  parameter - path of file containing test data.
 
 
 findDuplicate - Java code to find duplicate painting urls.
